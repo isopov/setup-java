@@ -25,7 +25,7 @@ Inputs `java-version` and `distribution` are mandatory. See [Supported distribut
 **Eclipse Temurin**
 ```yaml
 steps:
-- uses: actions/checkout@v2
+- uses: actions/checkout@v3
 - uses: actions/setup-java@v2
   with:
     distribution: 'temurin' # See 'Supported distributions' for available options
@@ -36,7 +36,7 @@ steps:
 **Zulu OpenJDK**
 ```yaml
 steps:
-- uses: actions/checkout@v2
+- uses: actions/checkout@v3
 - uses: actions/setup-java@v2
   with:
     distribution: 'zulu' # See 'Supported distributions' for available options
